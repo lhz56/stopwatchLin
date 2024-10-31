@@ -1,0 +1,112 @@
+*, *:before,*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url(oran.jpg);
+}
+.container{
+  background-color: transparent;
+  width: 40%;
+  min-width:500px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 55%;
+  left: 50%;
+  padding: 20px 0;
+  padding-bottom: 50px;
+  border-radius: 10px;
+
+}
+.timerDisplay{
+  position: relative;
+  width: 92%;
+  background: rgb(255, 255, 255);
+  left: 4%;
+  padding: 40px 0;
+  font-family: 'Roboto mono',monospace;
+  color: black;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 53px;
+  box-shadow: 0 0 20px #FD7628;
+  border-color:rgb(255, 165, 0);
+
+}
+.buttons{
+  width: 90%;
+  margin: 60px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 53px;
+}
+.buttons button{
+  width: 120px;
+  height: 45px;
+  background-color: rgb(255, 120, 0);
+  color: #000000;
+  border: none;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.buttons button:nth-last-child(2){
+  background-color: rgb(255, 165, 0);
+}
+.buttons button:nth-last-child(1){
+  background-color: rgb(255, 140, 0);
+}
+header img {
+  display: block; 
+  width: 480px;  
+  height: auto;  
+}
+
+.logo {
+  width: 100;
+}
+
+
+.countdown-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+
+#countdownInput {
+  
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  margin-right: 10px; 
+  color: black;
+  font-family: 'Roboto mono', monospace;
+  width: 230px;
+}
+
+
+#startCountdown {
+  background-color: rgb(255, 120, 0);
+  color: #000000;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+
+#startCountdown:hover {
+  background-color: rgb(255, 140, 0);
+}
